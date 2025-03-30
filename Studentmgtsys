@@ -1,4 +1,4 @@
-var 
+dlvar 
 sname:array of string;
 ssub:array of string;
 smarks:array of integer;
@@ -12,7 +12,7 @@ writeln('enter length');
 readln(nsn);
 setlength(sname,nsn);
 setlength(smarks,nsn,nsb);
-
+readln;
 
 for i:=0 to nsb-1 do
 begin
