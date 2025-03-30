@@ -1,0 +1,5 @@
+var 
+sname:array of string;
+ssub:array of string;
+smarks:array of integer;
+nsn,nsb:integer
