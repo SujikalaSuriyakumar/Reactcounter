@@ -2,4 +2,34 @@ var
 sname:array of string;
 ssub:array of string;
 smarks:array of integer;
-nsn,nsb:integer
+nsn,nsb:integer;
+i,j,search:integer;
+
+writeln('enter no of subject');
+readln(nsb);
+
+writeln('enter length');
+readln(nsn);
+setlength(sname,nsn);
+setlength(smarks,nsn,nsb);
+
+
+for i:=0 to nsb-1 do
+begin
+readln(ssub[i]);
+end;
+
+for i:=0 to nsn-1 do
+begin
+readln(sname[i]);
+
+for j:=0 to nsn-1 do
+begin
+readln(smarks[j]);
+
+
+
+
+
+end;
+
